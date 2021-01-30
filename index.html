@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tatsuya's portfolio</title>
+  <meta name="description" content="サイトの概要分">
+
+  <!-- リセットCSS -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- フォントオーサム -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width: 767px)">
+  <!-- jquery & iScroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+  <!-- wow -->
+  <script src="./js/wow.min.js"></script>
+  <link rel="stylesheet" href="./css/animate.css">
+  <!-- オリジナル -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js"></script>
+</head>
+<body class="drawer drawer--right">
+  <header class="header">
+    <div class="header_inner">
+      <h1 class="header_logo">Tatsuya's <br class="is_sp"> Portfolio</h1>
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <nav class="drawer-nav header_nav">
+        <ul class="drawer-menu header_nav_list">
+          <li class="header_nav_item">
+            <a class="header_nav_item_link" href="#home">ホーム</a></li>
+          <li class="header_nav_item">
+            <a class="header_nav_item_link" href="#service">サービス内容</a></li>
+          <li class="header_nav_item">
+            <a class="header_nav_item_link" href="#work">作品例</a></li>
+          <li class="header_nav_item">
+            <a class="header_nav_item_link" href="#about">自己紹介</a></li>
+          <li class="header_nav_item">
+            <a class="header_nav_item_link" href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- header -->
+
+  <!-- main -->
+  <main class="main">
+    <div id="home" class="home">
+      <div class="home_picture"></div>
+      <div class="home_box">
+        <h2 class="home_title">tatsuya's <br class="is_sp">  portfolio</h2>
+        <a href="#contact" class="home_link">お問い合わせ</a>
+      </div>
+    </div>   
+    <!-- /.home -->
+
+    <section id="service" class="service inner section">
+      <h2 class="util_title">サービス内容</h2>
+      <div class="service_inner">
+        <div class="service_picture"><img src="./img/service.jpg" alt="service">
+        </div>
+        <div class="service_message">
+          <p class="service_title">LP制作</p>
+          <ul class="service_list">
+            <li class="service_list_item">
+              -コーディング全体
+              <span class="service_list_cost">
+                ¥ 20,000円~
+              </span>
+            </li>
+            <li class="service_list_item">
+              -コーディング(下層ページ)
+              <span class="service_list_cost">
+                ¥ 20,000円~
+              </span>
+            </li>
+            <li class="service_list_item">
+              -レスポンシブ対応
+              <span class="service_list_cost">
+                ¥ 20,000円~
+              </span>
+            </li>
+            <li class="service_list_item">
+              -SEO内部対策
+              <span class="service_list_cost">
+                ¥ 20,000円~
+              </span>
+            </li>
+            <li class="service_list_item">
+              -サーバーにアップロード
+              <span class="service_list_cost">
+                ¥ 20,000円~
+              </span>
+            </li>
+          </ul>
+          <div class="service_skill">
+            <p class="service_title_sub">
+              使用スキル
+            </p>
+            <ul class="service_skill_list">
+              <li class="service_skill_text">
+                HTML5
+              </li>
+              <li class="service_skill_text">
+                CSS3
+              </li>
+              <li class="service_skill_text">
+                Sass
+              </li>
+              <li class="service_skill_text">
+                JavaScript/jQuery
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.service -->
+
+    <section id="work" class="work inner section">
+      <h2 class="util_title">作品例</h2>
+      <ul class="work_list">
+        <li class="work_item">
+          <a href="#" class="work_item_link">
+           <div class="work_item_picture"><img src="./img/service.jpg" alt="デイトラ 中級編(1)"></div>
+           <div class="work_item_body">
+             <p class="work_item_title">デザインカンプからコーディングです。</p>
+            </div>
+          </a>
+        </li>
+        <li class="work_item">
+          <a href="#" class="work_item_link">
+           <div class="work_item_picture"><img src="./img/service.jpg" alt="デイトラ 中級編(2)"></div>
+           <div class="work_item_body">
+             <p class="work_item_title">デザインカンプからコーディングです。</p>
+            </div>
+          </a>
+        </li>
+        <li class="work_item">
+          <a href="#" class="work_item_link">
+           <div class="work_item_picture"><img src="./img/service.jpg" alt="デイトラ 中級編(3)"></div>
+           <div class="work_item_body">
+             <p class="work_item_title">デザインカンプからコーディングです。</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- /.work -->
+
+    <section id="about" class="about inner section">
+      <h2 class="util_title">自己紹介</h2>
+      <ul class="about_list">
+        <li class="about_item">
+          <div class="about_item_body">
+            <span class="about_item_title">
+              古家　辰哉 <br class="is_sp"> (Tatsuya　Huruya)
+            </span>
+            <br>
+            新潟出身<br>
+            1997年7月24日生まれ、高卒で社会人5年目
+            会社での評価に不満をもち、個で稼ぐを目標に独学でWebサイト制作を学ぶ。
+            お客様に満足いただけるように個人ならではの低価格かつ高品質をお届けします。
+            現在、新潟を拠点にしweb制作を本業と兼業で活動しています。<br>
+            <br>
+            稼働時間<br>
+            平日　18:00~22:00 <br>
+            休日　 9:00~18:00 <br>
+            <br>
+            お問い合わせ時間<br>
+            基本8:00~22:00ごろまで対応可能です。<br>24時間以内に必ず返信致します。<br>
+          </div>
+          <div class="about_sns">
+            <a href="https://twitter.com/tatsuya___724">
+              <i class="fab fa-twitter fa-2x my-skyblue"></i>
+            </a>
+            <a href="https://www.instagram.com/tatsuya___724/">
+              <i class="fab fa-instagram fa-2x my-red"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100056090757078">
+              <i class="fab fa-facebook fa-2x my-blue"></i>
+            </a>
+          </div>
+        </li>
+        <li class="about_item">
+           <div class="about_item_picture"><img class="about_item_picture_sub" src="./img/about2.jpg" alt="自画像"></div>
+        </li>
+      </ul>
+      <!-- <a href="#contact" class="home_link">お問い合わせ</a> -->
+    </section>
+    <!-- /.about -->
+
+    
+    <section id="contact" class="contact" method="post">
+      <h2 class="util_title">お問い合わせ</h2>
+      <form action="" class="contact_form">
+        <table class="form_table">
+          <tbody>
+            <tr class="form_item">
+              <th class="form_label_wrap">
+                <span class="form_label form_label_input_required">
+                  お名前
+                </span><!-- /.form_label -->
+              </th><!-- /.form_label_wrap -->
+              <td class="form_input_wrap">
+                <input type="text" class="form_input" name="entry.1502365574" required="">
+                <!-- /.input -->
+                <p class="form_example">
+                  例）山田 太郎
+                </p><!-- /.form_example -->
+              </td><!-- /.form_input_wrap -->
+            </tr><!-- /.form_item -->
+            <tr class="form_item">
+              <th class="form_label_wrap">
+                <span class="form_label form_label_input_required">
+                  フリガナ
+                </span><!-- /.form_label -->
+              </th><!-- /.form_label_wrap -->
+              <td class="form_input_wrap">
+                <input type="text" class="form_input" name="entry.1950046508" required="">
+                <p class="form_example">
+                  例）ヤマダ　タロウ
+                </p><!-- /.form_example -->
+              </td><!-- /.form_input_wrap -->
+            </tr><!-- /.form_item -->
+            <tr class="form_item">
+              <th class="form_label_wrap">
+                <span class="form_label form_label_input_required">
+                  メールアドレス
+                </span><!-- /.form_label -->
+              </th><!-- /.form_label_wrap -->
+              <td class="form_input_wrap">
+                <input type="email" class="form_input" name="entry.1238078674" required="">
+                <p class="form_example">
+                  例）aaa@example.com
+                </p><!-- /.form_example -->
+              </td><!-- /.form_input_wrap -->
+            </tr><!-- /.form_item -->
+            <tr class="form_item">
+              <th class="form_label_wrap">
+                <span class="form_label form_label_input_optional">
+                  電話番号
+                </span><!-- /.form_label -->
+              </th><!-- /.form_label_wrap -->
+              <td class="form_input_wrap">
+                <input type="tel" class="form_input" name="entry.491443764">
+                <p class="form_example">
+                  例）12345678901
+                </p><!-- /.form_example -->
+              </td><!-- /.form_input_wrap -->
+            </tr><!-- /.form_item -->
+            <tr class="form_item">
+              <th class="form_label_wrap form_label_wrap_textarea">
+                <span class="form_label form_label_input_optional">
+                  お問い合わせ内容
+                </span><!-- /.form_label -->
+              </th><!-- /.form_label_wrap -->
+              <td class="form_textarea_wrap">
+                <textarea name="entry.1387874459" id="" class="form_textarea">
+                </textarea><!-- /.form_textarea -->
+              </td><!-- /.form_textarea_wrap -->
+            </tr><!-- /.form_item -->
+          </tbody> <!-- /.tbody -->
+        </table> <!-- /.form_table -->
+      
+      <div class="form_button_wrap">
+          <input id="#" type="submit" class="button form_button" disabled="">
+      </div> <!-- /.form_button_wrap -->
+      </form>
+    </section>
+    <!-- /.contact -->
+  </main>
+  <!-- /.main -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer_font">
+      <h3 class="footer_title">
+        tatsuya's portfolio
+      </h3>
+    </div>
+    <ul class="footer_nav_list">
+      <li class="footer_nav_item">
+        <a href="#" class="footer_nav_item_link">プライバシーポリシー</a>
+      </li>
+      <li class="footer_nav_item">
+        <a href="#" class="footer_nav_item_link">特定商取引法に基づく表記</a>
+      </li>
+    </ul>
+    <ul class="footer_sns_list">
+      <li class="footer_sns_item">
+        <a class="footer_sns_item_link" aria-label="line" href="https://twitter.com/tatsuya___724">
+          <i class="fab fa-twitter fa-1x my-skyblue"></i>
+        </a>
+      </li>
+      <li class="footer_sns_item">
+        <a class="footer_sns_item_link" aria-label="line" href="https://www.instagram.com/tatsuya___724/">
+          <i class="fab fa-instagram fa-1x my-red"></i>
+        </a>
+      </li>
+      <li class="footer_sns_item">
+        <a class="footer_sns_item_link" aria-label="line" href="https://www.facebook.com/profile.php?id=100056090757078">
+          <i class="fab fa-facebook fa-1x my-blue"></i>
+        </a>
+      </li>
+    </ul>
+    <p class="footer_copyright">
+      <small lang="en">© 2021 E-mail: huruya.tatsuya@gmail.com</small>
+    </p>
+  </footer>
+  <!-- /.footer -->
+</body>
+</html>
